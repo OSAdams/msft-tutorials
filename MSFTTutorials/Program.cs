@@ -132,23 +132,31 @@
 
 string projectName = "ACME";
 
-string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434:";
 
-string russianDirectory= $@"c:\Exercise\{projectName}\ru-RU\data.txt";
+string russianDirectory = $@"c:\Exercise\{projectName}\ru-RU\data.txt";
 
 string englishMessage = "View English output:";
 
 string englishDirectory = $@"c:\Exercise\{projectName}\data.txt";
 
-string fullEnglishMessage = $"{englishMessage}\n\t{englishDirectory}";
+string fullEnglishMessage = $"{englishMessage}\n\t{englishDirectory}\n";
 
-string fullRussianMessage = $"{russianMessage}\n\t{englishDirectory}";
+string fullRussianMessage = $"{russianMessage}\n\t{russianDirectory}\n";
 
+Console.WriteLine(fullEnglishMessage);
+Console.WriteLine(fullRussianMessage);
 
+// Tutorial Solution
 
-//Console.Write();
-//Console.Write();
-//Console.WriteLine();
-//Console.WriteLine();
+//string projectName = "ACME";
+//string englishLocation = $@"c:\Exercise\{projectName}\data.txt";
+//Console.WriteLine($"View English output:\n\t{englishLocation}\n");
 
-Console.WriteLine($"");
+//string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+//string russianLocation = $@"c:\Exercise\{projectName}\ru-RU\data.txt";
+//Console.WriteLine($"{russianMessage}:\n\t{russianLocation}\n");
+
+// Testing for an error
+Console.WriteLine("C:\new\folder");
+Console.WriteLine("String " + "concatenation!");
