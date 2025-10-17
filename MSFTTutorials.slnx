@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="MSFTTutorials/MSFTTutorials.csproj" />
+  <Project Path="StudentGrades/StudentGrades.csproj" Id="0f0115e1-729f-430f-b4fa-925fe22a88c5" />
 </Solution>
