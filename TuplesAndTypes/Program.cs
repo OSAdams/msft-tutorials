@@ -37,7 +37,7 @@ Console.WriteLine($"The value of subscript is {subscript}.\n");
 // If your app does work in the 2D graph space, the tuples that represent points might be common.
 // Once you find that, you can declare a record type that stores those values and provides more capabilities.
 
-class TupleUpdate
+public class TupleUpdate
 {
     public record Point(int X, int Y)
     {
