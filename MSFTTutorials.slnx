@@ -3,4 +3,5 @@
   <Project Path="MSFTTutorials/MSFTTutorials.csproj" />
   <Project Path="Numbers/Numbers.csproj" Id="f09d609c-e1f8-4829-b4e6-5ac59efbd59b" />
   <Project Path="StudentGrades/StudentGrades.csproj" Id="0f0115e1-729f-430f-b4fa-925fe22a88c5" />
+  <Project Path="TuplesAndTypes/TuplesAndTypes.csproj" Id="2b2a6a34-0569-4086-ae13-b526a67d30dd" />
 </Solution>
